@@ -51,6 +51,7 @@ public class AlipayController {
         Map param = new HashMap();
         Map<String,String[]> map = request.getParameterMap();
         int x = 1 ;
+        int y = 2 ;
         String name = new String();
         //循环参数
         for(Map.Entry<String, String[]> entry : map.entrySet()){
