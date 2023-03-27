@@ -50,8 +50,7 @@ public class AlipayController {
     public String alipayNotify(HttpServletRequest request){
         Map param = new HashMap();
         Map<String,String[]> map = request.getParameterMap();
-
-
+        int x = 1 ;
         String name = new String();
         //循环参数
         for(Map.Entry<String, String[]> entry : map.entrySet()){
